@@ -1,7 +1,7 @@
 setwd("C:/Users/Abrar/Dropbox/UNC_OneDrive/Shaikh Lab/ALX_FPR2 KO Study/Calorimetry/Calorimetry Preprocessed Files/")
 rm(list=ls())
 
-#SeahorseOCR_Data_COMBO_DAY10_lean_HF_only & SeahorseECAR_Data_COMBO_DAY10_lean_HF_only
+#read in calorimetry file that was outputted from the Calorimetry Analysis.R program (but add a "Group" column to your file!)
 cal <- read.csv("Calorimtery_ALX-FPR2_Calculated_Analysis_ALL_Mice_12Weeks-Old_v2.csv", header = TRUE) #load in OCR data 
 file_name <- "Calorimtery_ALX-FPR2_Calculated_Analysis_ALL_Mice_12Weeks-Old_v2"
 
